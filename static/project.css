@@ -1,0 +1,219 @@
+
+
+title{
+
+}
+
+html{
+  url_for('static', filename='project.css')
+}
+
+body{
+  font:15px/1.5 Arial, helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+
+}
+
+.button_1{
+  height: 38px;
+  background:white;
+  padding-right: 20px;
+}
+
+.box{
+  float:left;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:50%;
+}
+/*Header*/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#63C5DA 3px solid;
+  font-weight:bold;
+  font-size:22px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:10px;
+}
+
+header li{
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+  font-size: 13px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#63C5DA;
+  font-weight:bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight:bold;
+}
+
+#showcase{
+  min-height:400px;
+  background:url("/static/images/research3.jpg") no-repeat 0 0;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  font-weight:bold;
+}
+
+#showcase p{
+  font-size: 12px;
+}
+
+#submission{
+  padding:15px;
+  font-size:10px;
+  margin-bottom:10px;
+  background-color:#35424a;
+  border: #63C5DA 3px solid;
+  text-align:center;
+  color:white;
+}
+
+#submission h1{
+  float:center;
+}
+
+#submission form{
+  float:right;
+  margin-top:10px;
+}
+
+#submission input[Type = "textarea"]{
+  padding:4px;
+  height: 25px;
+  width:250px;
+}
+
+.button_1:hover{
+  background-color:#35424a;
+}
+
+#boxes{
+  margin-left:20px;
+}
+
+#boxes .box{
+  float:left;
+  width:28%;
+  padding:10px;
+}
+
+article#main-col{
+  float:left;
+  width:60%;
+}
+
+aside#side-text{
+  margin-left:10%;
+  width:30%;
+  margin-top:10px;
+  font-size:12px;
+}
+
+footer{
+  padding:20px;
+  margin-top:160px;
+  color:white;
+  background-color:#35424a;
+  text-align:center;
+}
+
+.cases{
+  margin-left:10px;
+}
+
+.research{
+  text-align:center;
+}
+
+table{
+  margin: 0 auto;
+}
+
+.case1{
+  margin: 0 auto;
+}
+
+.src{
+  margin-left:30px;
+  font-family: 15px/1.5 Arial, helvetica, sans-serif;
+}
+.src h2{
+  text-decoration: underline;
+}
+
+.welcome{
+  font-size:1px;
+  font-weight:bold;
+}
+
+.facts ul{
+  margin-left:18px;
+  text-align:left;
+  font-family: tahoma, sans-serif;
+}
+
+.pro{
+  color:green;
+  font-weight: bold;
+}
+
+.con{
+  color:red;
+  font-weight: bold;
+}
+
+.neutral{
+  color:#E4CD05;
+  font-weight:bold;
+}
